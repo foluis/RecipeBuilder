@@ -64,6 +64,7 @@
     <Build Include="Dbo\Tables\tblIngredientType.sql" />
     <Build Include="Dbo\Tables\tblIngredient.sql" />
     <Build Include="Dbo\Tables\tblRecipeIngredients.sql" />
+    <Build Include="Dbo\Tables\tblClient.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="RecipeBuilder.Database.publish.xml" />
