@@ -5,11 +5,11 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "RecipeBuilder.Database", "RecipeBuilder.Database\RecipeBuilder.Database.sqlproj", "{74ECB1C5-59AE-4D7A-A623-42B9CC5912A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeBuilder.Entities", "RecipeBuilder.Entities\RecipeBuilder.Entities.csproj", "{A6CA6043-2EDB-46FD-A6D1-D5C146B5F87A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipeBuilder.Entities", "RecipeBuilder.Entities\RecipeBuilder.Entities.csproj", "{A6CA6043-2EDB-46FD-A6D1-D5C146B5F87A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeBuilder.API", "RecipeBuilder.API\RecipeBuilder.API.csproj", "{8E3C9CC3-24E0-4C48-BABB-B33EEA0DBD33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipeBuilder.API", "RecipeBuilder.API\RecipeBuilder.API.csproj", "{8E3C9CC3-24E0-4C48-BABB-B33EEA0DBD33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeBuilder.Web", "RecipeBuilder.Web\RecipeBuilder.Web.csproj", "{2284D753-D151-453F-8E6B-442FC917F2A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipeBuilder.Web", "RecipeBuilder.Web\RecipeBuilder.Web.csproj", "{2284D753-D151-453F-8E6B-442FC917F2A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

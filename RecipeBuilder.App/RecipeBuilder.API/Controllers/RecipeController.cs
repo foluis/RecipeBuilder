@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using RecipeBuilder.API.DataAccess.Interfaces;
 using RecipeBuilder.Entities.Models;
 
@@ -125,6 +124,5 @@ namespace RecipeBuilder.API.Controllers
                     "Error deleting Recipe record");
             }
         }
-
     }
 }
