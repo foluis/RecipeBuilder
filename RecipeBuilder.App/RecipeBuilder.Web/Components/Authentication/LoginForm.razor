@@ -15,15 +15,15 @@
 
             <ValidationSummary />
 
-            @*@if (!string.IsNullOrWhiteSpace(_errorMessage))
+            @if (!string.IsNullOrWhiteSpace(_errorMessage))
             {
                 <MudAlert Severity="Severity.Error" Class="my-2" Variant="Variant.Filled">@_errorMessage</MudAlert>
-            }*@
+            }
         </MudCardContent>
 
         <MudCardActions>
-            <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Primary" >Login</MudButton>
-            <MudButton Variant="Variant.Outlined" Color="Color.Secondary" Class="ml-1" OnClick="RedirectToRegister">Register</MudButton>
+            <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Primary" Disabled="_isBusy">Login</MudButton>
+            <MudButton Variant="Variant.Outlined" Color="Color.Secondary" Class="ml-1" Disabled="_isBusy" OnClick="RedirectToRegister">Register</MudButton>
         </MudCardActions>
     </MudCard>
 </EditForm>

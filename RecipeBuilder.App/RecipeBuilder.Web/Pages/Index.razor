@@ -2,12 +2,6 @@
 
 <PageTitle>Index</PageTitle>
 
-<h1>Hola Mundo!</h1>
-
-Welcome to your new app.
-
-<SurveyPrompt Title="How is Blazor working for you?" />
-
 <AuthorizeView>
     <Authorized>
         <h2>
@@ -15,8 +9,7 @@ Welcome to your new app.
             @*@context.User.FindFirst(System.Security.Claims.ClaimTypes.GivenName).Value*@
         </h2>
     </Authorized>
-    <NotAuthorized>
-        <h2>Please login</h2>
+    <NotAuthorized>        
         <MudLink Href="/authentication/login">Login</MudLink>
     </NotAuthorized>
 </AuthorizeView>
