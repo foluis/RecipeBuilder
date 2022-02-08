@@ -12,7 +12,7 @@ using RecipeBuilder.API.Identity;
 namespace RecipeBuilder.API.Identity.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220208063557_MyFirstMigration")]
+    [Migration("20220208071606_MyFirstMigration")]
     partial class MyFirstMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
