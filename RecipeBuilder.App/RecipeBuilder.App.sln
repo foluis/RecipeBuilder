@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipeBuilder.API", "Recipe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipeBuilder.Web", "RecipeBuilder.Web\RecipeBuilder.Web.csproj", "{2284D753-D151-453F-8E6B-442FC917F2A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeBuilder.API.Identity", "RecipeBuilder.API.Identity\RecipeBuilder.API.Identity.csproj", "{1252536F-8CB2-4D8B-B207-D4A0883AC3A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{2284D753-D151-453F-8E6B-442FC917F2A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2284D753-D151-453F-8E6B-442FC917F2A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2284D753-D151-453F-8E6B-442FC917F2A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1252536F-8CB2-4D8B-B207-D4A0883AC3A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1252536F-8CB2-4D8B-B207-D4A0883AC3A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1252536F-8CB2-4D8B-B207-D4A0883AC3A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1252536F-8CB2-4D8B-B207-D4A0883AC3A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
