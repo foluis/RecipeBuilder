@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipeBuilder.API", "Recipe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipeBuilder.Web", "RecipeBuilder.Web\RecipeBuilder.Web.csproj", "{2284D753-D151-453F-8E6B-442FC917F2A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeBuilder.API.Identity", "RecipeBuilder.API.Identity\RecipeBuilder.API.Identity.csproj", "{1252536F-8CB2-4D8B-B207-D4A0883AC3A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipeBuilder.API.Identity", "RecipeBuilder.API.Identity\RecipeBuilder.API.Identity.csproj", "{1252536F-8CB2-4D8B-B207-D4A0883AC3A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
