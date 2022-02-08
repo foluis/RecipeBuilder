@@ -6,6 +6,7 @@ namespace RecipeBuilder.Entities.Models
     {
         [Required]
         [EmailAddress]
+        [StringLength(50)]
         public string Email { get; set; } = String.Empty;
 
         [Required]
