@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using MudBlazor.Services;
+using RecipeBuilder.Client.Services;
+using RecipeBuilder.Client.Services.Interfaces;
 using RecipeBuilder.Web;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
@@ -23,5 +25,7 @@ builder.Services.AddBlazoredLocalStorage();
 builder.Services.AddMudServices();
 builder.Services.AddAuthorizationCore();
 builder.Services.AddScoped<AuthenticationStateProvider, JwtAuthenticationStateProvider>();
+
+builder.Services.AddHttpClientServices();
 
 await builder.Build().RunAsync();
